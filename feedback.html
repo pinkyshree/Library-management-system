@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+    margin:0;
+  padding:0;
+  background:#b7adad;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 900px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 50px 16px;
+  background-color:#c63024  ;
+}
+header
+{
+  background-color: #a31e14;
+  height: 50px;
+  width: 100%;
+  opacity: .9;
+}
+header .logo
+{
+    padding-left: 20px;
+    float: left;
+    
+border-radius: 80%;    
+}
+footer a
+{
+  float: right;
+  font-size: 20px;
+}
+a{
+float: left;
+font-size: 20px;
+}
+input
+{
+  margin: 50px 50px 50px 50px;
+  width: 700px;
+  height: 200px;
+  opacity: .5;
+}
+h4 b
+{
+  float:right ;
+}
+</style>
+</head>
+<body>
+    <header>
+      <div class="logo" >
+      <img src="orbook.png" width="120px" height="50px" >
+  
+  </div>
+  <nav>
+</nav>
+</header>
+<div class="card">
+  <h1>FEEDBACK</h1>
+  <label for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;width: 90%;"></textarea>
+  </div>
+  <div class="container">
+      <button type="submit" onclick="myFunction()">submit&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button> 
+<a href = "mailto: abc@example.com">Send Email</a>
+</div>
+<script>
+  function myFunction()
+  {
+alert("thank you");
+location.replace("projectfront.html");
+}
+  </script>
+</body>
+</html> 
